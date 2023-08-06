@@ -1,5 +1,5 @@
 package com.company.DP.oneD;
-
+//t.c -> o(n),s.c ->o(1)
 public class frogjump {
     public int getans(int[] dp,int N,int[] arr){
         if(N == 0) return 0;
