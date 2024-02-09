@@ -9,7 +9,7 @@ public class balanced {
         int  lh = getdepth(root.left);
         int  rh = getdepth(root.right);
 
-        return 1+ Math.max(lh,rh);
+        return 1 + Math.max(lh,rh);
     }
     boolean isBalanced(Node node)
     {
